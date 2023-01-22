@@ -1,0 +1,95 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: #0a2647;
+}
+
+.Container {
+  width: 50%;
+  justify-content: center;
+  margin-left: 22%;
+  margin-top: 5%;
+  padding: 20px;
+  background: #144272;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  min-width: auto;
+  padding: 12px 20px;
+  margin: 30px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.header {
+  background: #205295;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid #205295;
+  border-radius: 4px;
+}
+button {
+  background-color: #2c74b3;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 22px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 0px auto;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.9s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.heading-list {
+  font-size: 1.7rem;
+  color: #ffff;
+  text-align: left;
+}
+.data-list {
+  background: #00337c;
+  padding: 10px 22px;
+  border: 2px solid #00337c;
+  border-radius: 12px;
+  color: white;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.remove {
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 25px;
+  cursor: pointer;
+  border-radius: 12px;
+}
